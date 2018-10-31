@@ -31,9 +31,9 @@ int main(){
    //Criando o programinha para testar os comandos:
     s = Screen(20, 20);
     figuras.push_back(new Brush('#'));
-    figuras.push_back(new Reta(25, 25, 15, 16));
+    figuras.push_back(new Reta(1, 1, 15, 16));
     figuras.push_back(new Brush('@'));
-    figuras.push_back(new Circulo(5, 18, 4, 0));
+    figuras.push_back(new Circulo(5, 5, 4, 0));
     figuras.push_back(new Brush('*'));
     figuras.push_back(new Retangulo(1, 1, 7, 7));
     figuras.push_back(new Brush(' '));

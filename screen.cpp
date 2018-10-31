@@ -4,12 +4,13 @@
 Screen::Screen(int _nlin, int _ncol){
     nlin = _nlin, ncol = _ncol;
     mat = vector< vector<char> > (nlin, vector<char>(ncol,brush));
-    for(int i=0; i<nlin; i++){
+    /*for(int i=0; i<nlin; i++){
         for(int j=0; j<ncol; j++){
             cout << mat[i][j] << " | ";
         }
         cout << endl;
-    }
+    }*/
+    clear();
 }
 
 void Screen::setBrush(char _brush){
